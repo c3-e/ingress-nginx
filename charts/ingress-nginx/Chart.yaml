@@ -19,4 +19,4 @@ name: c3-nginx-ingress
 sources:
   - https://ci-artifacts.c3.ai/v1/helm
 type: application
-version: 4.6.1-1
+version: 4.6.1-2
