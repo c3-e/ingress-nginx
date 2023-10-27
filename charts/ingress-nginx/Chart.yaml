@@ -15,7 +15,7 @@ keywords:
 kubeVersion: '>=1.20.0-0'
 maintainers:
 - name: Pranjay Sagar
-name: c3-nginx-ingress
+name: c3-nginx-ingress-chainguard
 sources:
 - https://ci-artifacts.c3.ai/v1/helm
 version: 4.7.2
