@@ -483,6 +483,11 @@ controller:
   service:
     # -- Enable controller services or not. This does not influence the creation of either the admission webhook or the metrics service.
     enabled: true
+    psc:
+      enabled: false
+      annotation:
+        key: "cloud.google.com/load-balancer-type"
+        value: "Internal"
     external:
       # -- Enable the external controller service or not. Useful for internal-only deployments.
       enabled: true
