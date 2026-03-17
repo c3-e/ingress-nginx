@@ -18,4 +18,4 @@ maintainers:
 name: c3-nginx-ingress
 sources:
 - https://ci-artifacts.c3.ai/v1/helm
-version: 4.12.1
+version: 4.12.2

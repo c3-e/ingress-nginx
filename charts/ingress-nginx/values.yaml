@@ -654,6 +654,10 @@ controller:
   # shareProcessNamespace enables process namespace sharing within the pod.
   # This can be used for example to signal log rotation using `kill -USR1` from a sidecar.
   shareProcessNamespace: false
+  # -- enableServiceLinks indicates whether information about services should be injected
+  # into Pod's environment variables, matching the syntax of Docker links.
+  # Defaults to false to reduce the risk of environment variable conflicts and improve security.
+  enableServiceLinks: false
   # -- Additional containers to be added to the controller pod.
   # See https://github.com/lemonldap-ng-controller/lemonldap-ng-controller as example.
   extraContainers: []
