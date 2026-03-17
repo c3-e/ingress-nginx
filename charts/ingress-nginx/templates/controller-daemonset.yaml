@@ -76,6 +76,7 @@ spec:
     {{- if .Values.controller.shareProcessNamespace }}
       shareProcessNamespace: {{ .Values.controller.shareProcessNamespace }}
     {{- end }}
+      enableServiceLinks: {{ .Values.controller.enableServiceLinks }}
       containers:
         - name: {{ .Values.controller.containerName }}
           {{- with (merge .Values.controller.image .Values.global.image) }}
